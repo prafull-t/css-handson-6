@@ -1,0 +1,328 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url(./shara\ desert.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo
+{
+position: relative;
+height: 50px;
+width: 60px;
+top: 50px;
+left: 10%;
+}
+
+
+.navig {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  height: 50px;
+  width: 30%;
+  position: relative;
+  top: 10px;
+  left: 65%;
+}
+
+a {
+  color: white;
+  font-size: smaller;
+  font-weight: 500;
+  text-decoration-line: none;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(143, 143, 143, 0.486);
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 30%;
+  position: absolute;
+  top: 43%;
+  left: 10%;
+  line-height: 20px;
+}
+
+.title {
+  color: white;
+  padding-bottom: 10px;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.discription {
+  line-height: 30px;
+  color: white;
+}
+
+.explore {
+  background-color: white;
+  text-align: center;
+  border-radius: 30px;
+  width: 180px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.picture {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 57%;
+  top: 12%;
+}
+
+.flex {
+  display: flex;
+}
+
+.child1 {
+  width: 10%;
+  height: 150px;
+  border-radius: 20px;
+  background-image: url(./pic-1.png);
+  margin: 15px;
+ 
+  background-size: cover;
+  color: white;
+  font-size: x-small;
+  padding: 20px;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+}
+
+.child2 {
+    width: 10%;
+    height: 150px;
+  border-radius: 20px;
+  background-image: url(./pic-2.png);
+  margin: 15px;
+  color: white;
+  font-size: x-small;
+  padding: 20px;
+  background-size: cover;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+}
+
+.child3 {
+    width: 10%;
+    height: 150px;
+  border-radius: 20px;
+  background-image: url(./pic-3.png);
+  margin: 15px;
+  color: white;
+  font-size: x-small;
+  padding: 20px;
+  background-size: cover;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+}
+
+.child4 {
+    width: 10%;
+    height: 150px;
+  border-radius: 20px;
+  background-image: url(./pic-4.png);
+  background-size: cover;
+  margin: 15px;
+  color: white;
+  font-size: x-small;
+  padding: 20px;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+}
+
+
+.child:hover
+{
+  transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 856px) 
+{
+    * {
+        padding: 0px;
+        margin: 0px;
+      }
+      
+      body {
+        background-image: url(./shara\ desert.jpg);
+        background-repeat:repeat;
+        background-size: cover;
+      }
+      
+      .logo
+      {
+      position: relative;
+      height: 50px;
+      width: 60px;
+      top: 30px;
+      left: 10%;
+      }
+      
+      
+      .navig {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px;
+        height: 50px;
+        width: 30%;
+        position: relative;
+        top: 0px;
+        left: 65%;
+      }
+      
+      a {
+        color: white;
+        font-size: smaller;
+        font-weight: 500;
+        text-decoration-line: none;
+      }
+      
+      .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(143, 143, 143, 0.486);
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        text-align: center;
+      }
+      
+      .text {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 30%;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        line-height: 20px;
+      }
+      
+      .title {
+        color: white;
+        padding-bottom: 10px;
+        font-size: xx-large;
+        font-weight: bolder;
+      }
+      
+      .discription {
+        line-height: 30px;
+        color: white;
+      }
+      
+      .explore {
+        background-color: white;
+        text-align: center;
+        border-radius: 30px;
+        width: 180px;
+        padding: 10px;
+        margin-top: 20px;
+      }
+      
+      .picture {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 25%;
+        top: 200px;
+      }
+      
+      .flex {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .child1 {
+        width: 50%;
+        height: 130px;
+        border-radius: 20px;
+        background-image: url(./pic-1.png);
+        margin: 15px;
+        background-position-y:-150px ;
+        color: white;
+        font-size: x-small;
+        padding: 20px;
+        transition-duration: 400ms;
+        transition-timing-function: ease-in-out;
+      }
+      
+      .child2 {
+        width: 50%;
+        height: 130px;
+        border-radius: 20px;
+        background-image: url(./pic-2.png);
+        margin: 15px;
+        color: white;
+        font-size: x-small;
+        padding: 20px;
+        background-size: cover;
+        transition-duration: 400ms;
+        transition-timing-function: ease-in-out;
+        background-position-y:-150px ;
+      }
+      
+      .child3 {
+        width: 50%;
+        height: 130px;
+        border-radius: 20px;
+        background-image: url(./pic-3.png);
+        margin: 15px;
+        color: white;
+        font-size: x-small;
+        padding: 20px;
+        background-size: cover;
+        transition-duration: 400ms;
+        transition-timing-function: ease-in-out;
+        background-position-y:-150px ;
+      }
+      
+      .child4 {
+        width: 50%;
+        height: 130px;
+        border-radius: 20px;
+        background-image: url(./pic-4.png);
+        background-size: cover;
+        margin: 15px;
+        color: white;
+        font-size: x-small;
+        padding: 20px;
+        transition-duration: 400ms;
+        transition-timing-function: ease-in-out;
+        background-position-y:-150px ;
+      }
+      
+      
+      .child:hover
+      {
+        transform: translateY(-10px);
+      } 
+}
